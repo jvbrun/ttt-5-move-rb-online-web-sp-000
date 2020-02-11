@@ -11,6 +11,7 @@ input = gets.strip
 puts board.inspect
 
 input_to_index(input)
+
 move(board, input_to_index, value = "X")
 
 puts display_board(board)
