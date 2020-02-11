@@ -7,4 +7,4 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 puts "1 is on the top left and 9 on the bottom right."
 puts display_board
-move = gets.stomp
+input = gets.stomp
