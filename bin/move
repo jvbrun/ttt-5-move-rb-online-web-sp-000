@@ -10,4 +10,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 input = gets.to_i
 
-#board[input] = "X"
+board[input] = "X"
