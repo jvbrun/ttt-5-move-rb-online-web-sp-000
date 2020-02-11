@@ -16,5 +16,5 @@ end
 
 def move(board, converted_input)
   player = "X"
-  board = board.insert(converted_input, "X")
+  board = board(converted_input, "X")
 end
