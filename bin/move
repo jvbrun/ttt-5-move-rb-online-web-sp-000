@@ -10,4 +10,3 @@ input = gets.strip
 puts board.inspect
 puts display_board(board)
 puts board.inspect
-puts index
