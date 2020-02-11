@@ -1,4 +1,4 @@
-def display_board(board)
+def display_board(board, player)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
@@ -14,5 +14,5 @@ end
 
 def move(converted_input)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  board = board.insert(converted_input, player = "X")
+  board.insert(converted_input, player = "X")
 end
