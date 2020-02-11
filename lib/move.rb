@@ -15,5 +15,5 @@ def input_to_index(input)
 end
 
 def move(board, converted_input)
-board.insert(board, converted_input)
+board.insert(board, converted_input, "X")
 end
