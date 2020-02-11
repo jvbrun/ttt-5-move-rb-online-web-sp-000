@@ -7,6 +7,6 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-input = gets.chomp
+input = gets.to_i
 
 board[input] = "X"
