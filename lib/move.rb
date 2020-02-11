@@ -14,6 +14,6 @@ def input_to_index(input)
   converted_input = input - 1
 end
 
-def move(board, converted_input)
-board.insert(board = "X", converted_input)
+def move(converted_input)
+  board.insert(converted_input, player = "X")
 end
