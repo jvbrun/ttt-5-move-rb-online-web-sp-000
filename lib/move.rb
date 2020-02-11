@@ -8,5 +8,6 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(move)
-  converted_input = move - 1
+  input = move - 1
+  converted_input = (display_board[input] = 'X')
 end
