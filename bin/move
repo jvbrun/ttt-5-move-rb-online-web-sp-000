@@ -9,4 +9,4 @@ input = gets.chomp
 
 board << gets.chomp
 
-#board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
