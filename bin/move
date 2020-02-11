@@ -8,6 +8,6 @@ puts "Where would you like to go?"
 puts display_board
 input = gets.to_i
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+# board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts display_board
