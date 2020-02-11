@@ -14,5 +14,5 @@ end
 
 def move(converted_input)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  move(board, converted_input,"X")
+  board.insert(board, converted_input,"X")
 end
