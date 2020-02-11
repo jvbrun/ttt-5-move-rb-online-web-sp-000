@@ -12,7 +12,7 @@ puts board.inspect
 
 input_to_index(input)
 
-move()
+move(board, index)
 
 puts display_board(board)
 
