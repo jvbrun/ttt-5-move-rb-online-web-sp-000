@@ -1,4 +1,4 @@
-def display_board(board(input_to_index, move))
+def display_board(board(converted_input, player))
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
