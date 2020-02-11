@@ -17,5 +17,5 @@ end
 
 def move(board, index, value = "X")
   board[index] = value
-  puts board.inspect
+  #puts board.inspect
 end
