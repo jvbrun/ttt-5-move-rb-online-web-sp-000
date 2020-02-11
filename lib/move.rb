@@ -11,3 +11,5 @@ def input_to_index(move)
   move = move.to_i 
   converted_input = move - 1
 end
+
+board = input_to_index
