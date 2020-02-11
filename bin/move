@@ -16,4 +16,4 @@ move(board, index)
 
 puts display_board(board)
 
-puts board.inspect
+#puts board.inspect
