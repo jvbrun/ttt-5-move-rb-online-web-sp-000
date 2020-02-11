@@ -8,12 +8,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 input = gets.strip
 
-puts board.inspect
+#puts board.inspect
 
 index = input_to_index(input)
-
 move(board, index)
-
 puts display_board(board)
-
-#puts board.inspect
