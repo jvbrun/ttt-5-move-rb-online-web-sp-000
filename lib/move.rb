@@ -16,5 +16,4 @@ end
 
 def move(board, converted_input)
   board[converted_input] = "X"
-  return board
 end
