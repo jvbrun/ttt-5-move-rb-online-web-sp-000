@@ -14,5 +14,6 @@ end
 
 def move(board, converted_input)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  board.insert(board, converted_input, X)
+  player = "X"
+  board.insert(board, converted_input, player)
 end
