@@ -9,5 +9,3 @@ puts display_board
 input = gets
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
-puts display_board
