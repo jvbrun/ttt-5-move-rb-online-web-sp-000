@@ -10,9 +10,9 @@ input = gets.strip
 
 puts board.inspect
 
-input_to_index(input)
+input_to_index()
 
-move(board, index, value = "X")
+move()
 
 puts display_board(board)
 
