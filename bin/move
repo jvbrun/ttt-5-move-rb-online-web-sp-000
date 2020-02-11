@@ -8,3 +8,4 @@ puts "Where would you like to go?"
 input = gets.to_i
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
