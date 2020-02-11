@@ -8,6 +8,6 @@ puts "Where would you like to go?"
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-input = gets.to_i
+input = gets.strip
 
-board[input] = " "
+#board[input] = " "
