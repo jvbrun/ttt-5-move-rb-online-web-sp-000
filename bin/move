@@ -9,3 +9,4 @@ input = gets.to_i
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
+display_board
